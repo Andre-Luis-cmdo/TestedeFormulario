@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    margin: 50px 350px;
+    background-color: rgba(134, 134, 246, 0.472);
+    border-radius: 10px 0px 10px 0px;
+    padding: 10px;
+    font-size: 20pt;
+    font-family:'Times New Roman', Times, serif
+}
+body{
+    margin: 50px;
+}
+legend{
+    font-style: italic;
+    font-size: 20pt;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+fieldset{
+    background-color: rgba(0, 100, 0, 0.322);
+    font-size: 20px;
+    padding: 10px;
+    border: solid 2px;
+
+}
+label{
+    color: rgb(3, 24, 61);
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+input{
+    background-color: rgba(226, 201, 140, 0.342);
+    border-radius: 5px;
+    font-size: 14pt;
+}
+input[type="submit"], input[type="reset"]{
+    color: rgb(238, 0, 0);
+    background-color: rgb(105, 187, 94);
+    cursor: pointer;
+}
+#msg{
+    margin-top: 10px;
+    background: rgba(64, 224, 208, 0.308);
+}
+
+

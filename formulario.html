@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastramento de pessoal</title>
+</head>
+<body>
+    <h1>FORMULÁRIO PARA CADASTRAMENTO</h1>
+    <fieldset>
+        <legend><strong>Area de Cadastramento</strong></legend>
+        
+    <form action="#">
+        <label for="nome">Nome completo:</label>
+        <input type="text" name="nome" id="nome" maxlength="50" placeholder="Digite seu nome" autofocus required>
+
+        <label for="nascimento">Data de nascimento:</label>
+        <input type="date" name="nascimento" id="nascimento" required>
+
+        <label for="irmao">Quantidade de irmãos:</label>
+        <input type="number" name="irmao" id="irmao" min="0" max="10" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" maxlength="30" placeholder="Digite seu email" required>
+
+        <label for="fone">Telefone:</label>
+        <input type="tel" name="fone" id="fone" maxlength="15" placeholder="(xx) x xxxx-xxxx" required>
+        <br><br>
+        <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Digite alguma informação relevante sobre você..."></textarea>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="LIMPAR">
+    </form>
+</fieldset>
+    
+</body>
+</html>
